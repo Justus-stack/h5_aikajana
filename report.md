@@ -8,14 +8,15 @@ Valitsin ladattaviksi ohjemlmiksi Gimp, Synaptic, Skype, Qalculate, GnuCash, Con
 
 Tein /srv/salt tilan myapps, johon tein init.sls tiedoston, johon tein seuraavan rakenteen.
 
-  myapps:
-    pkg.installed:
-      pkgs:
-        -
+![kuva2](/images/kuva2.png)
 
-tila toimi halutulla tavalla.
+tila ei toiminut halutulla tavalla.
 
 ![kuva1](/images/kuva1.png)
+
+päätin kokeilla asentaa sovellukset, joita tuossa virheilmopituksessa ei mainittu.
+
+![kuva3](/images/kuva3.png)
 
 ## b) Lisää Microsoftin pakettivarasto ja asenna Visual Studio Code.
 
