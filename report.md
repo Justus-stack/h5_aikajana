@@ -14,7 +14,7 @@ tila ei toiminut halutulla tavalla.
 
 ![kuva1](/images/kuva1.png)
 
-päätin kokeilla asentaa sovellukset, joita tuossa virheilmopituksessa ei mainittu.
+päätin kokeilla asentaa sovellukset, joita virheilmoituksessa ei mainittu.
 
 ![kuva3](/images/kuva3.png)
 
@@ -25,3 +25,9 @@ päätin kokeilla asentaa sovellukset, joita tuossa virheilmopituksessa ei maini
 ## c) Säädä jotain ohjelmaa ja etsi sen muuttamat tiedostot aikajanasta. Tee sitten tästä oma Saltin tila.
 
 Päätin säätää apache2 asetuksia. 
+
+-kesken-
+
+## d) Asenna jokin toinen ohjelma asetuksineen.
+
+-kesken-
