@@ -18,6 +18,8 @@ päätin kokeilla asentaa sovellukset, joita virheilmoituksessa ei mainittu.
 
 ![kuva3](/images/kuva3.png)
 
+tilan ajaminen unnistui ja kun ajoin sen uudelleen niin mitään ei muuttunut.
+
 ## b) Lisää Microsoftin pakettivarasto ja asenna Visual Studio Code.
 
 
