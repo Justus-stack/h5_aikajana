@@ -22,14 +22,34 @@ tilan ajaminen unnistui ja kun ajoin sen uudelleen niin mitään ei muuttunut.
 
 ## b) Lisää Microsoftin pakettivarasto ja asenna Visual Studio Code.
 
+Löysin internetistä [ohjeen](https://ostechnix.com/how-to-add-microsofts-linux-software-repository/) miten saan lisättyä Microsoftin pakettivaraston Linuxiin. Ubuntu 20.04 LTS versiossa pitää laittaa seuraavat komennot.
 
+  curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
+  sudo apt update
+
+sen jälkeen asensin VSCoden komennolla.
+
+sudo snap install --classic code
+
+ohjelma toimi.
 
 ## c) Säädä jotain ohjelmaa ja etsi sen muuttamat tiedostot aikajanasta. Tee sitten tästä oma Saltin tila.
 
-Päätin säätää apache2 asetuksia. 
+Valitsin säädettäväksi ohjelmaksi firefox selaimen. Tein tilan, joka asentaa firefoxin ja vaihtaa sen asetuksia. Tein ensin kansion salttiin ja sinne sls tiedoston. Valitsin konfiguroitavaksi asiaksi oletus sivun vaihtamisen.
 
--kesken-
+Testasin aluksi pkg installed, joka toimi hyvin. Lisäsin sen jälkeen file.managed kohdan minun sls tiedostoon. Firefoxin oletussivun konffaustiedoston nimi on syspref.js, johon laitoin seuraavan rivin.
+
+![kuva5](images/kuva5.png)
+
+Testasin file.managed funktiuon toimivuutta ja se toim oikein. Lopullisen sls tiedoston sisältö.
+
+![kuva6](images/kuva6.png)
 
 ## d) Asenna jokin toinen ohjelma asetuksineen.
 
 -kesken-
+
+
+## Lähteet
+
