@@ -42,9 +42,17 @@ Testasin aluksi pkg installed, joka toimi hyvin. Lisäsin sen jälkeen file.mana
 
 ![kuva5](images/kuva5.png)
 
-Testasin file.managed funktiuon toimivuutta ja se toim oikein. Lopullisen sls tiedoston sisältö.
+Testasin file.managed funktiuon toimivuutta ja se toimi oikein. Lopullisen sls tiedoston sisältö.
 
 ![kuva6](images/kuva6.png)
+
+Otin aikajanan etc kansiosta [tehtävänannossa olleella komennolla](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/#h5-aikajana)
+
+![kuva7](/images/kuva7.png)
+
+Aikajanassa näkyy muuttamani asetustiedostot tehtävän edellistä kohtaa varten. Muuttelin apachen ja firefox selaimen asetuksia ja otin aikajanan uudelleen.
+
+![kuva8](/imnages/kuva8.png)
 
 ## d) Asenna jokin toinen ohjelma asetuksineen.
 
@@ -53,3 +61,6 @@ Testasin file.managed funktiuon toimivuutta ja se toim oikein. Lopullisen sls ti
 
 ## Lähteet
 
+https://ostechnix.com/how-to-add-microsofts-linux-software-repository/
+
+https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-spring-2021/#h5-aikajana
