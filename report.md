@@ -52,7 +52,9 @@ Otin aikajanan etc kansiosta [tehtävänannossa olleella komennolla](https://ter
 
 Aikajanassa näkyy muuttamani asetustiedostot tehtävän edellistä kohtaa varten. Muuttelin apachen ja firefox selaimen asetuksia ja otin aikajanan uudelleen.
 
-![kuva8](/imnages/kuva8.png)
+![kuva8](/images/kuva8.png)
+
+Aikajanassa ei näy edellisiä Firefox muutoksia, mutta näkyy uudet. Aikajanassa näkyy myös Apachen muutokset. Konfigurointitiedoston muuttaminen näkyy aikajanassä myös sen kansion muuttamisena.
 
 ## d) Asenna jokin toinen ohjelma asetuksineen.
 
