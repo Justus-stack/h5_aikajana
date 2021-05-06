@@ -58,10 +58,11 @@ Aikajanassa ei näy edellisiä Firefox muutoksia, mutta näkyy uudet. Aikajanass
 
 ## d) Asenna jokin toinen ohjelma asetuksineen.
 
--kesken-
-
+Päätin tehdä tilan joka konfiguroi ja asentaa mysql-server paketin. Valitsin konfiguraatioksi [Githubista löytämäni](https://gist.github.com/rhtyd/d59078be4dc88123104e) konfiguraation. Aloitin tekemällä mysql kansion ja sinne init.sls tiedoston, johon laitoin pkg.installed ja file managed tilat.
 
 ## Lähteet
+
+https://gist.github.com/rhtyd/d59078be4dc88123104e
 
 https://ostechnix.com/how-to-add-microsofts-linux-software-repository/
 
